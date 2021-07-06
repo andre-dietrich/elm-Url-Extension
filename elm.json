@@ -1,0 +1,18 @@
+{
+    "type": "package",
+    "name": "andre-dietrich/elm-url-extension",
+    "summary": "A wrapper for elm/url that allows to use other protocols than http and https.",
+    "license": "BSD-3-Clause",
+    "version": "1.0.0",
+    "exposed-modules": [
+        "UrlExtension"
+    ],
+    "elm-version": "0.19.0 <= v <= 0.20.0",
+    "dependencies": {
+        "elm/core": "1.0.0 <= v < 2.0.0",
+        "elm/url": "1.0.0 <= v < 2.0.0"
+    },
+    "test-dependencies": {
+        "elm-explorations/test": "1.2.2 <= v < 2.0.0"
+    }
+}
